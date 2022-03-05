@@ -4,6 +4,9 @@
 // R: string
 // E:   altERnaTIng cAsE <=> ALTerNAtiNG CaSe
 // PC:  iterate thru string
+//      map each character
+//      check if current char is uppercase and if true set lowercase
+//      join array to make string
 
 String.prototype.toAlternatingCase = function () {
   return [...this]
