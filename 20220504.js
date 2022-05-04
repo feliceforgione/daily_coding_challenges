@@ -10,3 +10,5 @@ const pairProduct = (numbers, targetProduct) => {
        hash[num] = i;
     }
   }
+
+  
