@@ -9,7 +9,8 @@ If the input array is empty consider it as: [0] (array with a zero). */
 // E:  Input: [0, -1, -5]  Output: "even"
 /* P: check if array is empty and if so return even
 reduce array to sum of elements using reduce
-if number is even return "even" else return "odd" */
+if number is even return "even" else return "odd" 
+*/
 
 function oddOrEven(array) {
   if (array.lenght === 0) return "even";
